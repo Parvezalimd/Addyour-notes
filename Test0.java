@@ -23,8 +23,6 @@ class MyEmployee{
 public class Test0 {
     public static void main(String[] args) {
         MyEmployee harry = new MyEmployee();
-        // harry.id = 45;
-        // harry.name = "CodeWithHarry"; --> Throws an error due to private access modifier
         harry.setName("Hello world");
         System.out.println(harry.getName());
         harry.setId(234);
